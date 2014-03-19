@@ -1,0 +1,177 @@
+BODY {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma,arial; COLOR: #000000; FONT-SIZE: 15px; PADDING-TOP: 0px
+}
+P {
+	LINE-HEIGHT: 20px; FONT-FAMILY: tahoma,arial; COLOR: #000000; FONT-SIZE: 15px
+}
+A {
+	COLOR: #1db2f1
+}
+.signature {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 10px; LINE-HEIGHT: 26px; FONT-STYLE: italic; FONT-FAMILY: tahoma,arial; COLOR: #636363; FONT-SIZE: 19px; FONT-WEIGHT: normal
+}
+.ps {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; FONT-STYLE: normal; FONT-FAMILY: tahoma,arial; COLOR: #201a19; FONT-SIZE: 15px; FONT-WEIGHT: normal; PADDING-TOP: 15px
+}
+.disclaimer {
+	BORDER-BOTTOM: #efefef 0px solid; BORDER-LEFT: #efefef 0px solid; PADDING-BOTTOM: 5px; LINE-HEIGHT: 15px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-BOTTOM: 14px; FONT-SIZE: 9px; BORDER-TOP: #efefef 0px solid; BORDER-RIGHT: #efefef 0px solid; PADDING-TOP: 5px
+}
+.footer-secure {
+	BORDER-BOTTOM: #efefef 1px solid; BORDER-LEFT: #efefef 1px solid; PADDING-BOTTOM: 5px; MARGIN-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-BOTTOM: 14px; FONT-SIZE: 9px; BORDER-TOP: #efefef 1px solid; BORDER-RIGHT: #efefef 1px solid; PADDING-TOP: 5px
+}
+.footer A {
+	TEXT-ALIGN: center; FONT-FAMILY: tahoma; COLOR: #6C9DF7; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.footer A:hover {
+	TEXT-DECORATION: underline
+}
+.footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 13px; PADDING-LEFT: 0px; WIDTH: 680px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma; COLOR: #6C9DF7; FONT-SIZE: 11px; TEXT-DECORATION: none; PADDING-TOP: 10px
+}
+.header1 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30pt; FONT-STYLE: normal; FONT-FAMILY: arial, "Times New Roman", Times, serif; LETTER-SPACING: -1px; COLOR: #3c2208; FONT-SIZE: 59px; FONT-WEIGHT: normal; PADDING-TOP: 67px
+}
+.header2 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30pt; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; PADDING-RIGHT: 0px; FONT-FAMILY: arial, "Times New Roman", Times, serif; LETTER-SPACING: 0px; COLOR: #ffffff; FONT-SIZE: 17px; FONT-WEIGHT: normal; PADDING-TOP: 27px
+}
+.head0 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; LINE-HEIGHT: 30pt; FONT-STYLE: normal; PADDING-LEFT: 60px; PADDING-RIGHT: 60px; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; LETTER-SPACING: -1px; COLOR: #ed3c0c; FONT-SIZE: 34px; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.head3 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 27px; LINE-HEIGHT: 23pt; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; LETTER-SPACING: -1px; COLOR: #002447; FONT-SIZE: 22px; FONT-WEIGHT: bold; PADDING-TOP: 13px
+}
+.head4 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 7px; LINE-HEIGHT: 24pt; FONT-STYLE: normal; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; LETTER-SPACING: -1px; COLOR: #6C9DF7; FONT-SIZE: 24px; FONT-WEIGHT: bold; PADDING-TOP: 6px
+}
+.subhead {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 14px; LINE-HEIGHT: 22px; PADDING-LEFT: 87px; PADDING-RIGHT: 87px; FONT-FAMILY: arial; COLOR: #002447; FONT-SIZE: 17px; FONT-WEIGHT: bold; PADDING-TOP: 7px
+}
+.bullet {
+	TEXT-ALIGN: left; LINE-HEIGHT: 22pt; FONT-FAMILY: arial, "Times New Roman", Times, serif; COLOR: #b60101; FONT-SIZE: 15px
+}
+.style1 {
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif; COLOR: #cc0000; FONT-SIZE: 29px; FONT-WEIGHT: bold
+}
+UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+LI {
+	BACKGROUND-IMAGE: url(images/other07.png); TEXT-ALIGN: left; LINE-HEIGHT: 15pt; MARGIN: 13px 0px; PADDING-LEFT: 1.7em; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; BACKGROUND-POSITION: 0px 0.08em; COLOR: #000000; FONT-SIZE: 15px
+}
+.author {
+	LINE-HEIGHT: 22px; FONT-FAMILY: tahoma,arial; COLOR: #002447; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.author-img {
+	BORDER-BOTTOM: #e4eaf0 2px solid; BORDER-LEFT: #e4eaf0 2px solid; BORDER-TOP: #e4eaf0 2px solid; MARGIN-RIGHT: 8px; BORDER-RIGHT: #e4eaf0 2px solid
+}
+.head2 {
+	TEXT-ALIGN: left; LINE-HEIGHT: 22pt; PADDING-LEFT: 35px; WIDTH: 583px; FONT-FAMILY: arial, "Times New Roman", Times, serif; BACKGROUND: url(images/ss_25.jpg) no-repeat; HEIGHT: 68px; COLOR: #575b5f; FONT-SIZE: 24px; FONT-WEIGHT: bold; PADDING-TOP: 30px
+}
+.test2 {
+	POSITION: relative; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 21px; PADDING-LEFT: 0px; WIDTH: 515px; BOTTOM: 27px; PADDING-RIGHT: 0px; FONT-FAMILY: arial, "Times New Roman", Times, serif; COLOR: #4d4d4d; FONT-SIZE: 14px; PADDING-TOP: 27px
+}
+.order {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 501px; MARGIN-BOTTOM: 10px; BACKGROUND: url(images/cw_38.png) no-repeat; HEIGHT: 141px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.order A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.vidbox {
+	BORDER-BOTTOM: #ed3c0c 3px solid; BORDER-LEFT: #ed3c0c 3px solid; MARGIN-TOP: 20px; BORDER-TOP: #ed3c0c 3px solid; BORDER-RIGHT: #ed3c0c 3px solid
+}
+.cen {
+	TEXT-ALIGN: center
+}
+.optinbox {
+	BORDER-BOTTOM: #db0101 4px dashed; BORDER-LEFT: #db0101 4px dashed; BACKGROUND-COLOR: #fffcf4; MARGIN: 10px; FONT-FAMILY: "trebuchet ms", arial; COLOR: black; FONT-SIZE: 14px; BORDER-TOP: #db0101 4px dashed; BORDER-RIGHT: #db0101 4px dashed
+}
+.optinprivacy {
+	TEXT-ALIGN: center
+}
+.optinprivacy A {
+	TEXT-ALIGN: center; COLOR: gray; FONT-SIZE: 9px
+}
+.optinsubmit {
+	BORDER-RIGHT-WIDTH: 2px; BACKGROUND-COLOR: #db0101; WIDTH: 200px; FONT-FAMILY: "trebuchet ms", arial; BORDER-TOP-WIDTH: 2px; BORDER-BOTTOM-WIDTH: 2px; HEIGHT: 60px; COLOR: white; FONT-SIZE: 17px; BORDER-LEFT-WIDTH: 2px; FONT-WEIGHT: bold
+}
+.optintext {
+	TEXT-ALIGN: center; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.optinhead {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: "trebuchet ms", arial; COLOR: black; FONT-SIZE: 20px; FONT-WEIGHT: bold; PADDING-TOP: 30px
+}
+.capture LI {
+	BACKGROUND-IMAGE: url(images/ss_12.jpg); TEXT-ALIGN: left; LINE-HEIGHT: 16pt; PADDING-LEFT: 2.1em; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: arial, "Times New Roman", Times, serif; BACKGROUND-POSITION: 0px 0.88em; COLOR: #b60101; FONT-SIZE: 16px; PADDING-TOP: 10px
+}
+.testimonial1 {
+	BACKGROUND: url(images/cw_16.png) no-repeat
+}
+.testimonial2 {
+	BACKGROUND: url(images/cw_19.png) repeat-y
+}
+.testimonial3 {
+	PADDING-BOTTOM: 34px; BACKGROUND: url(images/cw_21.png) no-repeat 50% bottom
+}
+.testimonial-head {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 11px; LINE-HEIGHT: 22pt; FONT-STYLE: normal; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; LETTER-SPACING: 0px; COLOR: #ffffff; FONT-SIZE: 21px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.testimonial-text {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; FONT-STYLE: normal; PADDING-LEFT: 36px; PADDING-RIGHT: 36px; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; COLOR: #000000; FONT-SIZE: 14px; PADDING-TOP: 1px
+}
+.product1 {
+	BACKGROUND: url(images/cw_24.png) no-repeat
+}
+.product2 {
+	BACKGROUND: url(images/cw_27.png) repeat-y
+}
+.product3 {
+	PADDING-BOTTOM: 29px; BACKGROUND: url(images/cw_29.png) no-repeat 50% bottom
+}
+.product-head {
+	TEXT-ALIGN: center; LINE-HEIGHT: 22pt; FONT-STYLE: normal; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; LETTER-SPACING: 0px; COLOR: #1a333e; FONT-SIZE: 23px; FONT-WEIGHT: bold; PADDING-TOP: 12px
+}
+.product-text {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; FONT-STYLE: normal; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; COLOR: #000000; FONT-SIZE: 14px; PADDING-TOP: 1px
+}
+.bonus1 {
+	BACKGROUND: url(images/cw_31.png) no-repeat
+}
+.bonus2 {
+	BACKGROUND: url(images/cw_33.png) repeat-y
+}
+.bonus3 {
+	PADDING-BOTTOM: 24px; BACKGROUND: url(images/cw_35.png) no-repeat 50% bottom
+}
+.bonus-head {
+	TEXT-ALIGN: center; LINE-HEIGHT: 22pt; FONT-STYLE: normal; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; LETTER-SPACING: 0px; COLOR: #392f1f; FONT-SIZE: 23px; FONT-WEIGHT: bold; PADDING-TOP: 12px
+}
+.bonus-text {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; FONT-STYLE: normal; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; COLOR: #000000; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.subhead {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 14px; LINE-HEIGHT: 22px; PADDING-LEFT: 90px; PADDING-RIGHT: 90px; FONT-FAMILY: tahoma; COLOR: #000000; FONT-SIZE: 16px; FONT-WEIGHT: bold; PADDING-TOP: 11px
+}
+.author-img {
+	BORDER-BOTTOM: #504340 1px solid; BORDER-LEFT: #504340 1px solid; BORDER-TOP: #504340 1px solid; MARGIN-RIGHT: 8px; BORDER-RIGHT: #504340 1px solid
+}
+.bigletter {
+	LINE-HEIGHT: 0.8; FONT-FAMILY: tahoma,arial; FLOAT: left; COLOR: #ed3c0c; MARGIN-LEFT: 0px; FONT-SIZE: 52pt
+}
+.guarantee-table {
+	BORDER-BOTTOM: #dbb38c 1px dashed; BORDER-LEFT: #dbb38c 1px dashed; PADDING-BOTTOM: 16px; BACKGROUND-COLOR: #fff3e8; MARGIN: 10px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px; BORDER-TOP: #dbb38c 1px dashed; BORDER-RIGHT: #dbb38c 1px dashed; PADDING-TOP: 16px
+}
+.guarantee-head {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 23pt; FONT-STYLE: normal; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma,arial, "Times New Roman", Times, serif; MARGIN-BOTTOM: 0px; LETTER-SPACING: -1px; COLOR: #dd7813; MARGIN-LEFT: 0px; FONT-SIZE: 24px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.guarantee-text {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; LINE-HEIGHT: 20px; FONT-STYLE: normal; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma,arial; COLOR: #000000; FONT-SIZE: 15px; PADDING-TOP: 14px
+}
+.disclaimer {
+	BORDER-BOTTOM: #9da98b 0px solid; BORDER-LEFT: #9da98b 0px solid; PADDING-BOTTOM: 5px; LINE-HEIGHT: 15px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-BOTTOM: 14px; FONT-SIZE: 9px; BORDER-TOP: #9da98b 0px solid; BORDER-RIGHT: #9da98b 0px solid; PADDING-TOP: 5px
+}
+.footer-secure {
+	BORDER-BOTTOM: #efefef 1px solid; BORDER-LEFT: #efefef 1px solid; PADDING-BOTTOM: 5px; MARGIN-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-BOTTOM: 14px; FONT-SIZE: 9px; BORDER-TOP: #efefef 1px solid; BORDER-RIGHT: #efefef 1px solid; PADDING-TOP: 5px
+}

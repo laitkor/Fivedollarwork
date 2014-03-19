@@ -1,0 +1,85 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/axurerpprototype.css" type="text/css" rel="stylesheet">
+
+<SCRIPT LANGUAGE="JavaScript">
+
+function ShowNotes(id)
+{
+	switch(id) 
+	{
+case "p668476f18926461e9585390df09b66d7":
+document.body.innerHTML = "<SPAN class='notespagename'>Login Page</SPAN><BR><BR><SPAN class='notescontent'>This is the login section. User will select the utility, user type, would enter the user id &amp; pasword for the same and would click on login button. After proper authentication he would be allowed to enter the site. If user type would be &quot;operator&quot; user will be redirected to operator section &amp; if user type would be &quot;administrator&quot; he will be redirected to admin section.<br><br></SPAN>";
+break;
+case "p96dd6ac23651446a95430a87fee0db3b":
+document.body.innerHTML = "<SPAN class='notespagename'>Operator Section</SPAN><BR><BR><SPAN class='notescontent'>User will choose the allocated meter route from the &quot;Meter Route&quot; drop down list.<br>Note - Meter routes are alocated to opeartors by the administrators from the admin section. Meter route is made up of many address &amp; meters.<br>User would click on load buton and a meter list would pop up. User would select the meter route and a list of 5 address will pop up in the address list box. <br>The system would now prompt the user to select any one home plus details from the drop down list. <br>There would be 4 scenarios as per the selection made by the user in the home plus details drop down list.<br><br></SPAN>";
+break;
+case "p3ef44060d7724ea6badbe228952e8aef":
+document.body.innerHTML = "<SPAN class='notespagename'>Scenario 1</SPAN><BR><BR><SPAN class='notescontent'>This is the first scene where a user would choose for &quot;Reading Taken&quot; option from the home plus details drop down list. The system would prompt for reading which would accept only numeric values and upto 1 decimal place, seal number which would be alpha numeric, tampered check box which would by dedfault show &quot;No&quot; option as selected, A capture button. When the user would click on capture, he would get an alert box on the screen with two options &quot;continue&quot; &amp; &quot;change&quot;.<br><br></SPAN>";
+break;
+case "p1d778579703f43fb85aea042c735b5ee":
+document.body.innerHTML = "<SPAN class='notespagename'>Scenario 1.1_Continue</SPAN><BR><BR><SPAN class='notescontent'>When the user would click on continue the system would capture reading, capture datetime read, capture operator, capture if the operator was flagged about possible error, capture seal number, read status key, set NoRead field to 0<br><br></SPAN>";
+break;
+case "pde76492201104a3f840109d829cb0075":
+document.body.innerHTML = "<SPAN class='notespagename'>Scenario 1.2_Change</SPAN><BR><BR><SPAN class='notescontent'>When the user would click on change button then the system would position the cursor in meter reading entry point and clear previous entries. The user would enter all the details and would repeat the whole process as in scenario 1<br><br></SPAN>";
+break;
+case "p794a7018dee6481e8ad33865875c9e7f":
+document.body.innerHTML = "<SPAN class='notespagename'>Scenario 2</SPAN><BR><BR><SPAN class='notescontent'>This is the next scene where a user would choose for &quot;No Access&quot; Or &quot;Refused Access&quot; Or &quot;Could not locate&quot; option from the home plus details drop down list. The system would calculate reading estimate, increment the NoRead field, capture datetime read, capture operator, capture if the operator was flagged about possible error = false, capture seal number as blank, read status key<br><br></SPAN>";
+break;
+case "p855b73d3294a4f78b5151eece95b85c0":
+document.body.innerHTML = "<SPAN class='notespagename'>After Scenario Completion</SPAN><BR><BR><SPAN class='notescontent'>After completion of any of the scenarios the, the system would return to the next address, in the same meter list and will repeat the whole process until all the meter list and address under them are captured.<br><br></SPAN>";
+break;
+case "pa6fda01ddaaa4d6daf878dc4c7ba3f22":
+document.body.innerHTML = "<SPAN class='notespagename'>Admin Section</SPAN><BR><BR><SPAN class='notescontent'></SPAN>";
+break;
+case "p7b80721a0c9548de807f31fba95fddf3":
+document.body.innerHTML = "<SPAN class='notespagename'>Manage Meter Routes</SPAN><BR><BR><SPAN class='notescontent'>This is the admin section landing page, where &quot;manage meter routes&quot; would be the default selection along with &quot;view meter route&quot; from the sub menu.<br><br></SPAN>";
+break;
+case "pb00c93129e7b4705a5106546e08f040d":
+document.body.innerHTML = "<SPAN class='notespagename'>View Meter Route</SPAN><BR><BR><SPAN class='notescontent'>The system would prompt the user to select the route and the read month for which he wants to see the meter route. A meter route list would be displayed on the screen as per the meter route order and a functionality of moving a record &quot;up&quot; or &quot;down&quot;would be provided. <br>There would also be a route summary which would contain the details mentioned above and would be auto filled.<br><br></SPAN>";
+break;
+case "p87266fd0ce0f45dbb806b04a5f89e089":
+document.body.innerHTML = "<SPAN class='notespagename'>Allocate a Route</SPAN><BR><BR><SPAN class='notescontent'>In this page admin would be able to assign a route to a particular operator but he could only do so if, the meter route for the selected read month is the current month and if it has not been Commited. If the mentioned condition is followed then the system would prompt to select a operator to whom the admin wants to allocate the route. On the click of &quot;Allocate&quot; buton the route would be assigned to the selected operator.<br><br></SPAN>";
+break;
+case "pda5b2bdcb7b54a31bf8cfab55f1a1633":
+document.body.innerHTML = "<SPAN class='notespagename'>Process &amp; Commit</SPAN><BR><BR><SPAN class='notescontent'></SPAN>";
+break;
+case "pc4d6824dc7744bcc9793f9454899abb5":
+document.body.innerHTML = "<SPAN class='notespagename'>Manage Operators</SPAN><BR><BR><SPAN class='notescontent'>This section would be displayed when the user would select &quot;Manage Operators&quot; from the menu. By default the system would go to &quot;Add Operator&quot; section<br><br></SPAN>";
+break;
+case "pcd9b3e2691d743d1a4ce965ed31e457d":
+document.body.innerHTML = "<SPAN class='notespagename'>Add Opeartor</SPAN><BR><BR><SPAN class='notescontent'>This is the section where a user would be able to add an operator and would enter the details mentioned above and on the click of &quot;Add Opeartor&quot; button the opeartor would be added in the system.<br><br></SPAN>";
+break;
+case "p2af3aa03ce5544888761fa40dce5722b":
+document.body.innerHTML = "<SPAN class='notespagename'>Edit Opeartor</SPAN><BR><BR><SPAN class='notescontent'>This is the section where a user would be able to edit the details of an operator which he had added in the system. The system would ask for above details and on click of &quot;Update&quot; button the details of the operator would be updated.<br><br></SPAN>";
+break;
+case "p7ca2c3ad1dde427cafdc4e3bedb96e96":
+document.body.innerHTML = "<SPAN class='notespagename'>Manage Admin</SPAN><BR><BR><SPAN class='notescontent'>This section would be displayed when the user would select &quot;Manage Admin&quot; from the menu. By default the system would go to &quot;Add Admin&quot; section<br><br></SPAN>";
+break;
+case "p7e04fb7562ee45bdb4370e212e829f5c":
+document.body.innerHTML = "<SPAN class='notespagename'>Add Admin</SPAN><BR><BR><SPAN class='notescontent'>This is the section where a user would be able to add an operator and would enter the details mentioned above and on the click of &quot;Add Admin&quot; button the admin would be added in the system. The system would prompt for &quot;boolean fields&quot; like &quot;yes&quot; or &quot;no&quot; in order to give various authorities to the admin for example, can manage routes, can manage meter, can view reports etc.<br><br></SPAN>";
+break;
+case "p3ba387ff89d44d1a859361914e4b81c8":
+document.body.innerHTML = "<SPAN class='notespagename'>Edit Admin</SPAN><BR><BR><SPAN class='notescontent'>This is the section where a user would be able to edit the details of an admin which he had added in the system. The system would ask for above details and on click of &quot;Update&quot; button the details of the admin would be updated.<br><br></SPAN>";
+break;
+case "p9b37f59aeff04faf931ed3249aac385e":
+document.body.innerHTML = "<SPAN class='notespagename'>Manage Meter</SPAN><BR><BR><SPAN class='notescontent'>This screen would come up when the user selects &quot;manage meter&quot; from the menu. Thye system would prompt for a meter number. If the meter exists in the sytem the screen would prompt the user to choose from options mentioned above. On the click of &quot;Save&quot; button the detailes would save in the system.<br><br></SPAN>";
+break;
+case "p3033af96385f4f708d6b4b452cec1d8e":
+document.body.innerHTML = "<SPAN class='notespagename'>Reports</SPAN><BR><BR><SPAN class='notescontent'>This is the report section which would be displayed on the selection of &quot;Reports&quot; from the menu. By default the system would display the &quot;Meter Reading Report&quot;<br><br></SPAN>";
+break;
+case "p12483185578f41539e61e7c5915f6913":
+document.body.innerHTML = "<SPAN class='notespagename'>Meter Reading Report</SPAN><BR><BR><SPAN class='notescontent'>This is the page which would be displayed as the landing page for report section or by clicking on the &quot;Meter Reading Report&quot; from the sub menu of report section. <br>The report would give the user an option to view the report by two search criterias<br>1) By Route<br>2) By Goup of Routes.<br><br>If the user opt for &quot;By Route&quot; the system would again prompt to select the route and if the user opt for &quot;By Group of Routes&quot; the system would prom pt to select the group. <br>On the basis of the desired selection done by the user the system would display the details in the report. he report would have three options <br>1) to print <br>2) export to excel<br>3) export routine to CSV file<br><br>Note - The details that would be shown in the report will be provided by the client.<br><br></SPAN>";
+break;
+case "p45a931a6733c4948810b86f1c2b31b65":
+document.body.innerHTML = "<SPAN class='notespagename'>Monthly Read Status</SPAN><BR><BR><SPAN class='notescontent'>This report would be shown when the user will click on the sub menu &quot;Monthly Read Status&quot;. The system would prompt the user to select the Utility and the month for which the he wishes to view the report. On the basis of the selection done the report would display the data as shown above. The report would have two options <br>1) to print <br>2) export to excel<br><br></SPAN>";
+break;
+case "pc07a85a5358d45e49c733ced467dd1b3":
+document.body.innerHTML = "<SPAN class='notespagename'>Operator Report</SPAN><BR><BR><SPAN class='notescontent'>This report would be shown when the user will click on the sub menu &quot;Operator report&quot;. The system would prompt the user to select (enter the name) of the operator and the month for which the he wishes to view the report. On the basis of the selection done the report would display the data as shown above. The report would have two options <br>1) to print <br>2) export to excel<br><br></SPAN>";
+break;
+case "p279490d18d534ffea28c97c44cd2a070":
+document.body.innerHTML = "<SPAN class='notespagename'>Specefic Meter Report</SPAN><BR><BR><SPAN class='notescontent'>This report would be shown when the user will click on the sub menu &quot;Specefic Meter Report&quot;. The system would prompt the user to enter the meter number for which the he wishes to view the report. On the basis of the meter number entered the report would display the data. The report would have two options <br>1) to print <br>2) export to excel<br><br>Note - The details that would be shown in the report will be provided by the client.<br><br></SPAN>";
+break;
+default:
+document.body.innerHTML = ""
+	}
+}
+</SCRIPT></HEAD><BODY></BODY></HTML>

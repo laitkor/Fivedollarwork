@@ -1,0 +1,460 @@
+
+<html lang="en">
+<head>
+    <title>Minisite Design - Ecover Graphics - Minisite Templates - Landing Page Design</title>
+    <meta name="keywords" content="minisite design, minisite graphics, sales page design, sales page graphics, sales page template,minisite template, mini site, internet marketing graphics">
+    <meta name="description" content="Get a complete minisite design, minisite templates, ecover graphics or landing page template in less than 24 hours - guaranteed, or I'll pay you $100.">
+        
+<script type="text/javascript" language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> <script language="javascript" type="text/javascript" src="exit-catcher-files/config.js"></script> <script language="javascript" type="text/javascript" src="exit-catcher-files/splash.js"></script>
+
+ <script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+  <script type="text/javascript">
+  
+  $(document).ready(function() {
+//When you click on a link with class of poplight and the href starts with a # 
+$('a.poplight[href^=#]').click(function() {
+    var popID = $(this).attr('rel'); //Get Popup Name
+    var popURL = $(this).attr('href'); //Get Popup href to define size
+
+    //Pull Query & Variables from href URL
+    var query= popURL.split('?');
+    var dim= query[1].split('&');
+    var popWidth = dim[0].split('=')[1]; //Gets the first query string value
+
+    //Fade in the Popup and add close button
+    $('#' + popID).fadeIn().css({ 'width': Number( popWidth ) }).prepend('<a href="#" class="close"><img src="images/05.png" class="btn_close" title="Close Window" alt="Close" border=0 /></a>');
+
+    //Define margin for center alignment (vertical   horizontal) - we add 80px to the height/width to accomodate for the padding  and border width defined in the css
+    var popMargTop = ($('#' + popID).height() + 80) / 2;
+    var popMargLeft = ($('#' + popID).width() + 80) / 2;
+
+    //Apply Margin to Popup
+    $('#' + popID).css({
+        'margin-top' : -popMargTop,
+        'margin-left' : -popMargLeft
+    });
+
+    //Fade in Background
+    $('body').append('<div id="fade"></div>'); //Add the fade layer to bottom of the body tag.
+    $('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn(); //Fade in the fade layer - .css({'filter' : 'alpha(opacity=80)'}) is used to fix the IE Bug on fading transparencies 
+
+    return false;
+});
+
+//Close Popups and Fade Layer
+$('a.close, #fade').live('click', function() { //When clicking on the close or fade layer...
+    $('#fade , .popup_block').fadeOut(function() {
+        $('#fade, a.close').remove();  //fade them both out
+    });
+    return false;
+});
+});
+  </script>
+  
+        
+</head>
+
+<style>
+
+body {margin:0;padding:0;}
+.subtitle {font-family:"trebuchet ms",arial;font-size:18px;color:#7b7b7b;text-align:center;line-height:26px;margin-top:5px;}
+
+.head66 {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:24px; color:#303030; line-height:23pt; text-align:left; font-style:normal; font-weight:normal; margin-left:0px;margin-bottom:23px;padding:0px 10px; padding-top:7px;letter-spacing:0px;}
+
+.test6 {font-family:"trebuchet ms",arial;font-size:13px;color:#777777;line-height:19px;  position:relative;bottom:0px;  font-style:normal;  padding-bottom:0px; text-align:left; }
+
+.head65 {font-family:"trebuchet ms",arial;font-size:15px;color:#333333;line-height:18px;  position:relative;bottom:0px;  font-style:normal;  padding-bottom:0px; text-align:left; margin-bottom:4px;font-weight:bold; }
+
+.head67 {font-family:"trebuchet ms",arial;font-size:15px;color:#333333;line-height:18px;  position:relative;bottom:0px;  font-style:normal;  padding-bottom:0px; text-align:left; margin-bottom:4px;font-weight:normal; }
+
+
+.optinbox2 {font-weight:bold;}
+.optinsubmit2 {background:url(images/20.png) no-repeat; width:233px;height:48px;border:0;}
+.optinsubmit3 {background:url(images/50.jpg) no-repeat; width:210px;height:38px;border:0;}
+.border3 {border-top:1px solid #ccdbe8;border-bottom:1px solid #ccdbe8;background-color:#fafcfe;padding:11px;margin:0px;}
+
+.optinprivacy {font-family:"trebuchet ms", arial;font-size:11px;color:#979797;text-align:right;font-weight:normal;margin-right:7px;margin-top:4px;}
+
+.footer {font-family:"trebuchet ms", arial;font-size:11px;color:#979797;text-align:right;font-weight:normal;margin-right:7px;margin-top:4px;line-height:18px;}
+.footer a {color:#979797;}
+
+.menu a {font-family:"trebuchet ms", arial;font-size:17px;color:#979797;text-align:center;font-weight:normal;margin-right:7px;margin-top:4px;line-height:18px;text-decoration:none;}
+.menu a:hover {color:#e0e0e0;}
+
+
+#fade { /*--Transparent background layer--*/
+	display: none; /*--hidden by default--*/
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .80;
+	z-index: 9999;
+}
+.popup_block{
+	display: none; /*--hidden by default--*/
+	background: #fff;
+	padding: 20px;
+	border: 3px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	/*--CSS3 Box Shadows--*/
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	/*--CSS3 Rounded Corners--*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+img.btn_close {
+	float: right;
+	margin: -45px -45px 0 0;
+}
+/*--Making IE6 Understand Fixed Positioning--*/
+*html #fade {
+	position: absolute;
+}
+*html .popup_block {
+	position: absolute;
+}
+
+</style>
+
+<body>
+
+
+
+   
+<div style="background:url(images/bg_02.png) top repeat-x;">   
+   
+<center>
+    <table cellpadding=0 cellspacing=0>
+        <tr height=92>
+            <td><a href="http://www.minisiteshark.com"><img src="images/logo.png" border=0></a></td>
+            <td class=menu>
+                
+            <center><table><TR><TD style="padding-right:40px;"><a href="about.html">ABOUT</a></td>
+            <TD style="padding-right:40px;"><a href="portfolio.html">PORTFOLIO</a></td>
+            <TD style="padding-right:40px;"><a href="packages.html">PACKAGES</a></td>
+            <TD><a href="contact.html">CONTACT</a></td>
+            </tr></table></center>
+            
+            </td>
+        </tr>
+        <TR>
+            <td colspan=2>
+                <center>
+                    <table cellpadding=0 cellspacing=0>
+                        <tr>
+                            <td colspan=2><img src="images/ms_06.png"></td>
+                            <td rowspan=2>
+                                
+
+                                
+                              <a href="#?w=720" rel="popup_name" class="poplight" onmouseover="document.smirk3.src='images/play2.png'"
+        onmouseout ="document.smirk3.src='images/play.png'"> 
+<img src="images/play.png" border=0 name="smirk3"></a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                            
+                            <a href="portfolio.html" onmouseover="document.smirk.src='images/seeportfolio2.png'"
+        onmouseout ="document.smirk.src='images/seeportfolio.png'"> 
+<img src="images/seeportfolio.png" border=0 name="smirk"></a></td>
+                            <td>
+                                
+                            <a href="packages.html" onmouseover="document.smirk2.src='images/trypackage2.png'"
+        onmouseout ="document.smirk2.src='images/trypackage.png'"> 
+<img src="images/trypackage.png" border=0 name="smirk2"></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan=3><img src="images/ms_11.png"></td>
+                        </tr>
+                    </table>
+                </center>
+            </td>
+        </TR>    
+    </table>
+</center>    
+ 
+ 
+<center><img src="images/text1_14.png"></center>
+
+<div class=subtitle>MinisiteShark is the fastest and easiest way to become a Shark in your market.<BR>
+Because we're internet marketers, we understand how to make converting designs. <BR>
+And make it easier for you to work with it.</div>
+
+
+   <div id="popup_name" class="popup_block">
+    <center>
+<iframe title="YouTube video player" width="640" height="510" src="http://www.youtube.com/embed/SwI61lVyQuI?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+	
+	
+    
+    
+    <a href="packages.html"><img src="images/clickhere3.png" border=0></a>
+    </center>    
+</div>
+    
+    
+
+<BR>
+    
+        <center><table cellpadding=0 cellspacing=0 border=0 style="margin:10px 0;"><TR><TD width=920>
+        
+
+    <hr width=900 color=#dddddd style="color:#dddddd;size:1px;margin-bottom:26px;height:1px;background-color:#dddddd; border:0;" size=1 />
+    
+<center><table border=0>
+
+<TR><TD width=100 valign=top align=right><img src="images/ms_20.png" style="margin-right:10px;"></td><td width=340 valign=top><div class=head65>Finish Your Website Faster</div>
+<div class=test6>No more delaying your project. If you won't get your design 
+in 24 hours after placing your order, we'll give you $100. 
+That's our promise to you.</div></td>
+
+<td width=20></td>
+
+<TD width=100 valign=top align=right><img src="images/ms_22.png" style="margin-right:10px;"></td><td width=340 valign=top><div class=head65>BoostShark Your Sales</div>
+<div class=test6>Our designs are not only beautiful and high quality, they also
+convert like crazy. Crush your competition and become 
+a shark in your market.</div></td></tr>
+
+<TR><td height=35></td></TR>
+
+
+<TR><TD width=100 valign=top align=right><img src="images/ms_30.png" style="margin-right:10px;"></td><td width=340 valign=top><div class=head65>Format Your Sales Letter Easily</div>
+<div class=test6>You'll get a pre-formatted sales letter template, so all you'll have 
+to do is copy and paste. All sales page elements like subheadline,
+headline, paragraphs, johnson boxes, footer and other are 
+already in place.</div></td>
+
+<td width=20></td>
+
+<TD width=100 valign=top align=right><img src="images/ms_27.png" style="margin-right:10px;"></td><td width=340 valign=top><div class=head65>Enjoy Our Friendly Support</div>
+<div class=test6>MinisiteShark takes special care for each and every customer.
+We are available by email, skype, google talk and phone.</div></td></tr>
+
+
+<TR><td height=35></td></TR>
+
+
+<TR><TD width=100 valign=top align=right><img src="images/ms_34.png" style="margin-right:10px;"></td><td width=340 valign=top><div class=head65>Save Time With Wordpress</div>
+<div class=test6>We can integrate any design to Wordpress to make for you
+easier to manage and edit your sales pages. Plus, we'll give you
+a totally unique Wordpress plugin 'Brave Minisite' for
+free.</div></td>
+
+<td width=20></td>
+
+<TD width=100 valign=top align=right><img src="images/ms_37.png" style="margin-right:10px;"></td><td width=340 valign=top><div class=head65>Don't Risk Your Money</div>
+<div class=test6>We understand that you may be sceptical about our service.
+Take advantage of our risk free 30-day money back guarantee. If you won't get absolutely escatic about our work, 
+we will give you your money back. </div></td></tr>
+
+
+</table></center>
+    
+    <hr width=900 color=#dddddd style="color:#dddddd;size:1px;margin-top:26px;height:1px;background-color:#dddddd; border:0;" size=1 />    
+    
+    </td></tr></table></center>
+        
+        
+
+
+
+
+
+
+<BR><BR><BR>
+
+
+<center><img src="images/ms_42.png"></center>
+
+
+        <center><table cellpadding=0 cellspacing=0 border=0 style="margin:10px 0;"><TR><TD width=920>
+        
+
+    <hr width=900 color=#dddddd style="color:#dddddd;size:1px;margin-bottom:26px;height:1px;background-color:#dddddd; border:0;" size=1 />
+    
+<center><table border=0>
+
+<TR><TD width=100 valign=top align=right><img src="images/amirs.gif" style="margin-right:10px;"></td><td width=340 valign=top><div class=head67>"Real Jaw-Dropping Design"</div>
+<div class=test6>"Fantastic service, great communication and a real jaw-dropping design well worth the money. If you're sitting on the fence then don't, this is cheap as chips and an expert graphics designer. Once again thanks mate for a job well done"<BR>
+<div style="color:#494949;margin-top:2px;">- Amir S, London, UK</div></div></td>
+
+<td width=20></td>
+
+<TD width=100 valign=top align=right><img src="images/kenpreuss2.gif" style="margin-right:10px;"></td><td width=340 valign=top><div class=head67>"Fantastic Job"</div>
+<div class=test6>"Thanks for a fantastic job on my graphics!! Absolutely beautiful work and delivered on time as promised."<BR>
+<div style="color:#494949;margin-top:2px;">- Ken Preuss, Chicago, USA</div></div></td></tr>
+
+<TR><td height=35></td></TR>
+
+
+<TR><TD width=100 valign=top align=right><img src="images/kim.gif" style="margin-right:10px;"></td><td width=340 valign=top><div class=head67>"Delivers On Time"</div>
+<div class=test6>"Lucas has just done some work for me and I was very pleased with it. In my experience he is trustworthy and delivers on time."<BR>
+<div style="color:#494949;margin-top:2px;">- Kim Standerline, UK<BR>www.kimspirations.info</div></div></td>
+
+<td width=20></td>
+
+<TD width=100 valign=top align=right><img src="images/rhondawhite.gif" style="margin-right:10px;"></td><td width=340 valign=top><div class=head67>"I'm Just So Impressed..."</div>
+<div class=test6>"I'm just so impressed the design job that Lucas did for me! His communication skills are great...he kept me posted up to date with his progress. In fact, I didn't need any revisions done."<BR>
+<div style="color:#494949;margin-top:2px;">- Rhonda White, Kansas, USA<BR>www.sellinformationproducts.com</div></div></td></tr>
+
+<TR><td height=35></td></TR>
+
+
+<TR><TD width=100 valign=top align=right><img src="images/person.png" style="margin-right:10px;"></td><td width=340 valign=top><div class=head67>"Very Happy With The Design"</div>
+<div class=test6>"Very happy with the design, great work, ordering again!."<BR>
+<div style="color:#494949;margin-top:2px;">- Matt Mansfield, UK<BR>www.sensationalsmoothies.com</div></div></td>
+
+<td width=20></td>
+
+<TD width=100 valign=top align=right><img src="images/person.png" style="margin-right:10px;"></td><td width=340 valign=top><div class=head67>"I Highly Recommend"</div>
+<div class=test6>"Lucas did such an amazing job redesigning my website. I could not be happier with his work, his work ethic and professionalism. I highly recommend him!"<BR>
+<div style="color:#494949;margin-top:2px;">- tangosdad from Warrior Forum</div></div></td></tr>
+
+
+
+<TR><td height=35></td></TR>
+
+
+<TR><TD width=100 valign=top align=right><img src="images/person.png" style="margin-right:10px;"></td><td colspan=4 width=640 valign=top><div class=head67>"Clear Understanding Of Minisites And Selling"</div>
+<div class=test6>"My experience with Lucas has been excellent. Not only did he understand all my specs, but he was also happy to make the small adjustments and revisions I asked for later on.
+<BR><BR>
+He's a designer who has a pretty clear understanding of minisites and selling on the web - as compared to regular freelance web designers that you can find elsewhere. I've hired such designers in the past, and it's usually a pain in the a** to explain to them all those little gimmicks of internet marketing (700px width, readability, colors, page load time, arrows, bullets, ecovers and so many more things).
+<BR><BR>
+Bottom line - he knows what he's doing. And if you give him a clear description of what you want, you're likely to get an excellent website."
+<div style="color:#494949;margin-top:2px;">- Mark Patterson, UK</div></div></td>
+
+</tr>
+
+
+
+</table></center>
+    
+    <hr width=900 color=#dddddd style="color:#dddddd;size:1px;margin-top:26px;height:1px;background-color:#dddddd; border:0;" size=1 />    
+    
+    </td></tr></table></center>
+
+
+
+
+<BR><BR><BR>
+
+<center>
+    
+                            <a href="packages.html" onmouseover="document.smirk4.src='images/clickhere2.png'"
+        onmouseout ="document.smirk4.src='images/clickhere.png'"> 
+<img src="images/clickhere.png" border=0 name="smirk4"></a>
+
+</center>
+
+
+<BR><BR><BR><BR>
+
+
+<center><img src="images/ms_48.png"></center>
+<BR>
+
+	
+	
+	
+	   <center><table cellpadding=0 cellspacing=0 class=border3 style="margin-bottom:30px;padding:20px;" width=100%><TR>
+	   <TD>
+            
+           <center><table border=0><TR><TD>
+            
+           <img src="images/jumpingfrog.png" border=0 width=300></TD><td width=19></td>
+	   
+	   <TD width=360>
+    
+    <div class=head67>
+        
+<form method="post" class="af-form-wrapper" action="http://www.aweber.com/scripts/addlead.pl"  >
+<div style="display: none;">
+<input type="hidden" name="meta_web_form_id" value="2032685316" />
+<input type="hidden" name="meta_split_id" value="" />
+<input type="hidden" name="listname" value="minisiteshark-p" />
+<input type="hidden" name="redirect" value="http://www.aweber.com/thankyou-coi.htm?m=text" id="redirect_c8b5650013d2e9e9463c4b1c8db6c550" />
+<input type="hidden" name="meta_adtracking" value="minisiteshark-homepage" />
+<input type="hidden" name="meta_message" value="1" />
+<input type="hidden" name="meta_required" value="email" />
+<input type="hidden" name="meta_tooltip" value="" />
+</div>
+	
+        
+
+<center style="line-height:22px;">Simply Fill in your First Name and Primary Email Address in the form below to get a free minisite template called "Jumping Frog" ($197 value).</center>
+        
+<br>
+    
+<div align=left><table cellpadding=3  class=optinbox2 width=337 border=0>
+
+<TR><TD align=right>
+First Name</td><td width=200 align=left><input type="text" name="name" value="" size=28 /></td></tr>
+<TR><TD align=right>Email</td><TD align=left><input type="text" name="email" value="" size=28  /></td></tr>	
+<TR><TD align=right><img src="images/moving_arrow.gif"></TD><Td align=left><input name="submit" class="optinsubmit3" type="submit" value="" /></td></tr>
+<TR><td colspan=3 style="padding-bottom:0px;"><div class=optinprivacy>We hate spam. Your privacy is assured.</div>
+<div style="display: none;"><img src="http://forms.aweber.com/form/displays.htm?id=TAzMTGwcrMyMbA==" alt="" /></div>
+</form>
+</td></tr></table>    </div>
+
+           </td></tr></table>
+    
+    </td></tr></table></center>
+ 
+ 
+ 
+ 
+
+    
+    
+ 
+ 
+<BR><BR><BR>
+
+
+
+<center>
+    <table cellpadding=0 cellspacing=0 style="background:url(images/ms_04.png) bottom repeat-x;" width=100%>
+        <TR><TD>
+            <center><table width=945 cellpadding=0 cellspacing=0>
+        <tr height=92>
+            <td><img src="images/logo.png"></td>
+            <td><div class=footer>Copyright © 2010 MinisiteShark. All Rights Reserved.<BR>
+<a href="http://en.wikipedia.org/wiki/MerchantCircle">Coupons MerchantCircle</a> | <a href="http://www.killermarketing.net">Killer Marketing</a> | <a href="#">Terms of Use</a></div></td>
+        </tr></table>
+        </td></tr>
+    </table>
+</center>    
+ 
+</div>
+            
+            <script src="http://www.livefaceonweb.com/demo/playLFOW_45.js" type="text/javascript"></script>
+
+            
+
+            
+            
+            <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2372458-62']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+   
+</body>
+</html>

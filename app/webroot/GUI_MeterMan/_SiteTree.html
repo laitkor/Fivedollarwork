@@ -1,0 +1,252 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/axurerpprototype.css" type="text/css" rel="stylesheet"></HEAD>
+<BODY>
+<A href=# onclick='parent.CloseSitemap()' style='font-size:8pt'>Close Frames</A><br><br>
+
+<SCRIPT LANGUAGE="JavaScript">
+image1 = new Image();
+image1.src = 'Resources/plus.gif';
+
+function CloseSitemap()
+{
+	parent.URL = parent.mainFrame.URL
+}
+
+function ToggleDiv(node, id)
+{
+	sibling = document.getElementById(id);
+	if (sibling.style.display == 'none')
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/minus.gif";
+			}
+		}
+
+		sibling.style.display = '';
+	}
+	else
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/plus.gif";
+			}
+		}
+		sibling.style.display = 'none';
+	}
+}
+
+var currentPage = null;
+
+function highlight(id)
+{
+	if (currentPage != null)
+	{
+		currentPage.style.backgroundColor = '#EEEEFF';
+		currentPage.style.paddingLeft = '0px';
+		currentPage.style.paddingRight = '0px';
+		currentPage.style.border = '0px solid #666666';
+	}
+	
+	currentPage = document.getElementById(id);
+    if (currentPage) {
+	    currentPage.style.backgroundColor = '#DDDDDD';
+	    currentPage.style.paddingLeft = '3px';
+	    currentPage.style.paddingRight = '3px';
+	    currentPage.style.border = '1px solid #666666';
+    }
+}
+
+</SCRIPT>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onclick="parent.mainFrame.location='Login_Page.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p668476f18926461e9585390df09b66d7">Login Page</SPAN></A><DIV id="td668476f18926461e9585390df09b66d7">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd96dd6ac23651446a95430a87fee0db3b')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='Operator_Section.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p96dd6ac23651446a95430a87fee0db3b">Operator Section</SPAN></A><DIV id="d96dd6ac23651446a95430a87fee0db3b">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd3ef44060d7724ea6badbe228952e8aef')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='Scenario_1.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p3ef44060d7724ea6badbe228952e8aef">Scenario 1</SPAN></A><DIV id="d3ef44060d7724ea6badbe228952e8aef">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Scenario_1.1_Continue.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p1d778579703f43fb85aea042c735b5ee">Scenario 1.1_Continue</SPAN></A><DIV id="td1d778579703f43fb85aea042c735b5ee">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Scenario_1.2_Change.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pde76492201104a3f840109d829cb0075">Scenario 1.2_Change</SPAN></A><DIV id="tdde76492201104a3f840109d829cb0075">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Scenario_2.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p794a7018dee6481e8ad33865875c9e7f">Scenario 2</SPAN></A><DIV id="td794a7018dee6481e8ad33865875c9e7f">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='After_Scenario_Completion.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p855b73d3294a4f78b5151eece95b85c0">After Scenario Completion</SPAN></A><DIV id="td855b73d3294a4f78b5151eece95b85c0">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'da6fda01ddaaa4d6daf878dc4c7ba3f22')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='Admin_Section.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pa6fda01ddaaa4d6daf878dc4c7ba3f22">Admin Section</SPAN></A><DIV id="da6fda01ddaaa4d6daf878dc4c7ba3f22">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd7b80721a0c9548de807f31fba95fddf3')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='Manage_Meter_Routes.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p7b80721a0c9548de807f31fba95fddf3">Manage Meter Routes</SPAN></A><DIV id="d7b80721a0c9548de807f31fba95fddf3">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='View_Meter_Route.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pb00c93129e7b4705a5106546e08f040d">View Meter Route</SPAN></A><DIV id="tdb00c93129e7b4705a5106546e08f040d">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Allocate_a_Route.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p87266fd0ce0f45dbb806b04a5f89e089">Allocate a Route</SPAN></A><DIV id="td87266fd0ce0f45dbb806b04a5f89e089">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Process___Commit.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pda5b2bdcb7b54a31bf8cfab55f1a1633">Process &amp; Commit</SPAN></A><DIV id="tdda5b2bdcb7b54a31bf8cfab55f1a1633">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'dc4d6824dc7744bcc9793f9454899abb5')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='Manage_Operators.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pc4d6824dc7744bcc9793f9454899abb5">Manage Operators</SPAN></A><DIV id="dc4d6824dc7744bcc9793f9454899abb5">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Add_Opeartor.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pcd9b3e2691d743d1a4ce965ed31e457d">Add Opeartor</SPAN></A><DIV id="tdcd9b3e2691d743d1a4ce965ed31e457d">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Edit_Opeartor.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p2af3aa03ce5544888761fa40dce5722b">Edit Opeartor</SPAN></A><DIV id="td2af3aa03ce5544888761fa40dce5722b">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd7ca2c3ad1dde427cafdc4e3bedb96e96')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='Manage_Admin.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p7ca2c3ad1dde427cafdc4e3bedb96e96">Manage Admin</SPAN></A><DIV id="d7ca2c3ad1dde427cafdc4e3bedb96e96">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Add_Admin.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p7e04fb7562ee45bdb4370e212e829f5c">Add Admin</SPAN></A><DIV id="td7e04fb7562ee45bdb4370e212e829f5c">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Edit_Admin.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p3ba387ff89d44d1a859361914e4b81c8">Edit Admin</SPAN></A><DIV id="td3ba387ff89d44d1a859361914e4b81c8">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Manage_Meter.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p9b37f59aeff04faf931ed3249aac385e">Manage Meter</SPAN></A><DIV id="td9b37f59aeff04faf931ed3249aac385e">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd3033af96385f4f708d6b4b452cec1d8e')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='Reports.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p3033af96385f4f708d6b4b452cec1d8e">Reports</SPAN></A><DIV id="d3033af96385f4f708d6b4b452cec1d8e">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Meter_Reading_Report.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p12483185578f41539e61e7c5915f6913">Meter Reading Report</SPAN></A><DIV id="td12483185578f41539e61e7c5915f6913">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Monthly_Read_Status.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p45a931a6733c4948810b86f1c2b31b65">Monthly Read Status</SPAN></A><DIV id="td45a931a6733c4948810b86f1c2b31b65">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Operator_Report.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pc07a85a5358d45e49c733ced467dd1b3">Operator Report</SPAN></A><DIV id="tdc07a85a5358d45e49c733ced467dd1b3">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='Specefic_Meter_Report.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p279490d18d534ffea28c97c44cd2a070">Specefic Meter Report</SPAN></A><DIV id="td279490d18d534ffea28c97c44cd2a070">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE></BODY></HTML>
